@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Training Register
 
 This page is the **single source of truth** for all proof-of-learning needs.
