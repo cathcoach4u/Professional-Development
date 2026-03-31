@@ -1,0 +1,112 @@
+site_name: Coach4U — Resources & Training
+site_description: Training register, supervision records, and resource hub for Coach4U
+site_url: https://cathcoach4u.github.io/Resources-Training/
+repo_url: https://github.com/cathcoach4u/Resources-Training
+repo_name: cathcoach4u/Resources-Training
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Training Register: register.md
+  - Training:
+    - Overview: training/index.md
+    - Relate:
+      - Overview: training/relate/index.md
+      - Current Program (2026 PORT Level 2):
+        - Hub: training/relate/current-program/index.md
+        - "Session 1 — 10 Mar": training/relate/current-program/session-01.md
+        - "Session 2 — 17 Mar": training/relate/current-program/session-02.md
+        - "Session 3 — 24 Mar": training/relate/current-program/session-03.md
+        - "Session 4 — 31 Mar": training/relate/current-program/session-04.md
+        - "Session 5 — 7 Apr": training/relate/current-program/session-05.md
+        - "Session 6 — 14 Apr": training/relate/current-program/session-06.md
+        - "Session 7 — 21 Apr": training/relate/current-program/session-07.md
+        - "Session 8 — 28 Apr": training/relate/current-program/session-08.md
+      - Reference Library:
+        - Overview: training/relate/reference-library/index.md
+        - Anger Shield: training/relate/reference-library/anger-shield.md
+        - The Bridge: training/relate/reference-library/the-bridge.md
+        - Combined Infographic: training/relate/reference-library/combined-infographic.md
+        - Cycle of Relationship: training/relate/reference-library/cycle-of-relationship.md
+        - Deep Listening: training/relate/reference-library/deep-listening.md
+        - Feelings Wheel: training/relate/reference-library/feelings-wheel.md
+        - Appreciation Dialogue: training/relate/reference-library/appreciation-dialogue.md
+        - Relationship Check-In: training/relate/reference-library/relationship-check-in.md
+        - Daily Dialogue: training/relate/reference-library/daily-dialogue.md
+        - Killers vs Healers: training/relate/reference-library/killers-vs-healers.md
+        - De-Escalate Conflict: training/relate/reference-library/de-escalate-conflict.md
+        - Elephant Dialogue: training/relate/reference-library/elephant-dialogue.md
+        - Health Questionnaire: training/relate/reference-library/health-questionnaire.md
+      - Presentations: training/relate/presentations/index.md
+      - Previous Training:
+        - Overview: training/relate/previous-training/index.md
+        - "2025 April — PORT Online": training/relate/previous-training/2025-april.md
+        - "2024 March — PORT Training": training/relate/previous-training/2024-march.md
+    - Gottman:
+      - Overview: training/gottman/index.md
+      - Resources: training/gottman/resources.md
+    - ADHD (PESI):
+      - Overview: training/adhd-pesi/index.md
+      - Resources: training/adhd-pesi/resources.md
+    - Gallup:
+      - Overview: training/gallup/index.md
+      - Resources: training/gallup/resources.md
+    - AIPC: training/aipc/index.md
+    - MHPN: training/mhpn/index.md
+    - ICF: training/icf/index.md
+  - Supervision:
+    - Overview: supervision/index.md
+    - Marissa Clohesy:
+      - Overview: supervision/marissa-clohesy/index.md
+    - Relate:
+      - Overview: supervision/relate/index.md
