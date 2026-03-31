@@ -3,3 +3,16 @@
 :root {
   --md-primary-fg-color: #009688;
 }
+
+/* Force 3 cards in a single row on the home page */
+.md-typeset .grid.cards > ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .md-typeset .grid.cards > ul {
+    grid-template-columns: 1fr;
+  }
+}

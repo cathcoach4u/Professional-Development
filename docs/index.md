@@ -1,8 +1,10 @@
-# Coach4U — Resources & Training Hub
+---
+hide:
+  - navigation
+  - toc
+---
 
-Welcome to the Coach4U training register and supervision resource area.
-
-## Quick Links
+# Welcome
 
 <div class="grid cards" markdown>
 

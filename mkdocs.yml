@@ -56,7 +56,7 @@ extra_css:
   - assets/stylesheets/extra.css
 
 nav:
-  - Home: index.md
+  - index.md
   - Training Register: register.md
   - Training:
     - Overview: training/index.md
