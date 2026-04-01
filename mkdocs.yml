@@ -1,8 +1,8 @@
 site_name: Coach4U — Resources & Training
 site_description: Training register, supervision records, and resource hub for Coach4U
-site_url: https://cathcoach4u.github.io/Resources-Training/
-repo_url: https://github.com/cathcoach4u/Resources-Training
-repo_name: cathcoach4u/Resources-Training
+site_url: https://cathcoach4u.github.io/Internal-Resources-Training/
+repo_url: https://github.com/cathcoach4u/Internal-Resources-Training
+repo_name: cathcoach4u/Internal-Resources-Training
 
 theme:
   name: material
