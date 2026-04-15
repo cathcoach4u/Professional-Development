@@ -36,13 +36,13 @@ Narrated explainer video with slides. Target length 4 minutes 45 seconds.
 
 ### SCRIPT
 
-I want to start with something you have probably lived.
+I want to start with something you have probably lived. Because I've lived it too.
 
 You find a system. A planner, an app, a routine. It works for a week or two. And then life happens — a hard day, a busy week, one thing that falls through the cracks — and the whole thing collapses. And somewhere in that collapse, a familiar story starts. That maybe it is just you. That other people manage to follow through and you cannot. That you have failed again.
 
 [PAUSE]
 
-In my work with people who have ADHD, I see this pattern constantly. And I want to say something clearly: this is not a motivation problem. It is a capacity problem. When capacity is low, everything feels urgent and loud, and it becomes very hard to hold a plan in your head, let alone act on one.
+I know that pattern. And I want to say something clearly: this is not a motivation problem. It is a capacity problem. When capacity is low, everything feels urgent and loud, and it becomes very hard to hold a plan in your head, let alone act on one.
 
 What actually helps is not another system. It's support that works with your capacity, not against it. That's what ThriveHQ is built around. And the SAFE check-in is the tool we use to make that visible.
 
