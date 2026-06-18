@@ -5,7 +5,10 @@ hide:
 
 # Training Register
 
-This page is the **single source of truth** for all proof-of-learning needs.
+!!! info "Moved to the Coach4U Hub"
+    The live Training Register now lives in the **Coach4U Hub** → Hubs → Professional Development → **Training Register**. This page is kept here for reference only and is no longer updated.
+
+This page was the single source of truth for all proof-of-learning needs (now maintained in the hub).
 
 ---
 
