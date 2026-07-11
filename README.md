@@ -1,24 +1,18 @@
-# Coach4U — Resources & Training
+# Coach4U — Professional Development (ARCHIVED)
 
-Training register, supervision records, and resource hub for Coach4U.
+> **⚠️ This repository is archived. All content now lives in the Coach4U Hub.**
+>
+> Migrated 2026-07-11 (Internal Hub v3.65.783):
+> - **Training Register + Supervision Hours** → the in-app Training Register
+>   (Professional Development ▸ Training Register).
+> - **Training by provider** (Relate/PORT — overview, 2026 Level 2 program, session notes,
+>   reference library, SharePoint file links — plus Gottman, ADHD/PESI, Gallup, AIPC, MHPN, ICF)
+>   → the **Training providers** group in the Professional Development app:
+>   `https://hub.coach4u.com.au/profdev/` (backed by the `prof_dev_*` tables in the
+>   Internal Hub Supabase; source engine `prof-dev-ui.js` in `cathcoach4u/internal-coach4u-hub`).
+>
+> Nothing edits here any more. The training files themselves (certificates, presentations)
+> were never in this repo — they live on SharePoint, unchanged.
 
-Built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) and deployed to GitHub Pages.
-
-## Local Development
-
-```bash
-pip install -r requirements.txt
-mkdocs serve
-```
-
-Then open [http://localhost:8000](http://localhost:8000) in your browser.
-
-## Deployed Site
-
-[https://cathcoach4u.github.io/Resources-Training/](https://cathcoach4u.github.io/Resources-Training/)
-
-## Structure
-
-- **Training Register** — Master tracker table for all certificates and supervision hours (proof of learning)
-- **Training** — Organised by provider: Relate, Gottman, ADHD (PESI), Gallup, AIPC, MHPN, ICF
-- **Supervision** — Organised by supervisor: Marissa Clohesy, Relate
+Previously: training register, supervision records, and resource hub for Coach4U, built with
+MkDocs Material and deployed to GitHub Pages. Kept read-only as a historical record.
